@@ -1,7 +1,7 @@
 import { createLLMService } from "usellm";
 
 const llmService = createLLMService({
-  openaiApiKey: process.env.OPEN_API_KEY,
+  openaiApiKey: process.env.OPENAI_API_KEY,
   actions: ["chat"],
 });
 
